@@ -45,6 +45,7 @@ a {text-decoration: none;
 }
 .first{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -75,7 +76,7 @@ a {text-decoration: none;
 }
 .red{
     display: flex;
-    
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .third{
