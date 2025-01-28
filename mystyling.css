@@ -4,9 +4,8 @@
     margin: 0%;
 }
 body{
-    background-color: purple
-    ;
-    color: white;
+    background-color: purple;
+    color: rgb(252, 253, 254);
     max-width: 1024px;
     margin: 0 auto;
 }
@@ -38,29 +37,31 @@ nav ul li{
    text-decoration: none;
 }
 nav ul li:hover{
-    background-color: bisque;
+    background-color:rgb(243, 184, 230);;
 }
 a {text-decoration: none;
-    color: black;
+    color: rgb(252, 253, 254);
 }
 .first{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    align-items:center
 }
 .first div{
     margin: 0 100px; 
 }
 .first img{
     height: 200px;
-    width: 200px;
-    border-radius: 24px;
+    width: 180px;
+    border-radius: 30px;
 }
 .first h1{
-    width: 66%;
-    font-size: 3.75rem;
-    font-weight: 600;
+    width: 60%;
+    font-size: 3.55rem;
+    font-weight: 500;
 }
 .second{
     display: grid ;
